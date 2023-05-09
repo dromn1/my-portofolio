@@ -68,7 +68,7 @@ export const Works = ()=> {
               <div className="card d-flex no-color no-border align-items-center">
               <Image src={project_1} height={600} alt="CTI" className="img-fluid rounded-3"/>
               <div className="card-body  border-purple rounded-3 mt-2 mb-4 animate__animated animate__fadeInDown">
-              <h5 className="card-title color-whity">Card title</h5>
+              <h5 className="card-title color-whity">Salony</h5>
               <p className="card-text color-whity">my Senior Project in college, and this app will help you to book and find your favorite salon easily</p>
               <p className="grayly-color m-0">Preview</p>
               </div>
@@ -92,7 +92,7 @@ export const Works = ()=> {
               <div className="card-body  border-purple rounded-3 mt-2 mb-4 animate__animated animate__fadeInDown">
               <h5 className="card-title color-whity">Kids Future App</h5>
               <p className="card-text color-whity">Simple, Easy to use, clear UI all that to help the kids to choose their future university majors by AI</p>
-              <a href="#" className="color-purple">Preview</a>
+              <Link href={"https://kidscareer.online/"} target="_blank" className="color-purple">Preview</Link>
               </div>
               </div>
               </div>
