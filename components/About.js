@@ -81,7 +81,7 @@ import {useInView} from 'react-intersection-observer';
               <div className="col-12">
                 <p className="color-whity sizeable-text">
                   I'm <span className="sizeable-text color-purple text-decoration-underline">24</span>, 
-                  and I'm Senior Forntend Developer and UI/UX designer with <span className="sizeable-text color-purple text-decoration-underline">3 years</span> experience and specialization in web\App development design, also I'm Animation Artist and 3D Modeling</p>
+                  and I'm a Senior Forntend Developer and UI/UX designer with <span className="sizeable-text color-purple text-decoration-underline">3 years</span> experience and specialization in web\App development design, also I'm Animation Artist and 3D Modeling</p>
               </div>
             </div>
           </div>
@@ -105,11 +105,11 @@ import {useInView} from 'react-intersection-observer';
             
             <div className="row">
               <div className="col-12">
-                <p className="color-whity fs-2">My College</p>
+                <p className="color-whity fs-2">Certificate</p>
               </div>
               <div className="col-12">
                 <p className="color-whity sizeable-text">
-                  Majoring in Engineering Computer, graduate in <span className="sizeable-text color-purple text-decoration-underline">Feb 2023</span> from CTI "Communications and Information College".
+                 Bachelor's in Engineering Computer, graduate in <span className="sizeable-text color-purple text-decoration-underline">Feb 2023</span> from CTI "Communications and Information College".
                 </p>
               </div>
             </div>
@@ -161,7 +161,7 @@ import {useInView} from 'react-intersection-observer';
               </div>
               <div className="col-12">
                 <p className="color-whity sizeable-text">
-                   <a href="./my_resume.pdf" download={"Ahmad Nasif Resume"} className="sizeable-text color-purple text-decoration-underline">Download</a>
+                   <a href="./resume.pdf" download={"Ahmad Nasif Resume"} className="sizeable-text color-purple text-decoration-underline">Download</a>
                 </p>
               </div>
             </div>
