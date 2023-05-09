@@ -8,7 +8,7 @@ import Cursor from '../../components/Cursor'
 export const route_pages = ()=> {
     return (
         <>
-    <div className='container'>
+    <div className='container availabel-scroll'>
       <ul className="circles animate__animated animate__fadeInUp animate__delay-0s">
       <li></li>
       <li></li>
