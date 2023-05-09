@@ -40,7 +40,6 @@ export const Works = ()=> {
         
       <div className="col">
         <h1 className="color-whity fs-2 mb-3 mt-5 text-bg fw-bold"><strong>Here some of my works</strong></h1>
-        <h4 className="fs-5 mb-4 grayly-color">This is a wider card with supporting text below as a natural lead-in to additional content.</h4>
         <div id="carouselExampleIndicators" className="carousel slide">
           <div className="row d-flex justify-content-center">
 
