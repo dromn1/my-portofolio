@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="45" viewBox="0 0 45 45">
+  <defs>
+    <filter id="Cursor" x="0" y="0" width="45" height="45" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#5b4baf"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Cursor)">
+    <g id="Cursor-2" data-name="Cursor" transform="translate(9 9)" fill="none" stroke="#5b4baf" stroke-width="2">
+      <rect width="27" height="27" rx="7" stroke="none"/>
+      <rect x="1" y="1" width="25" height="25" rx="6" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="93" viewBox="0 0 56 93">
+  <g id="downtipe" transform="translate(-408 -654)">
+    <g id="squr" transform="translate(408 654)" fill="none" stroke="#6b5eae" stroke-width="5" opacity="0">
+      <rect width="56" height="93" rx="15" stroke="none"/>
+      <rect x="2.5" y="2.5" width="51" height="88" rx="12.5" fill="none"/>
+    </g>
+    <g id="arrow1" transform="translate(417.75 674.86)">
+      <line id="Line_1" data-name="Line 1" x1="18" y2="18" transform="translate(18.5)" fill="none" stroke="#6b5eae" stroke-linecap="round" stroke-width="3"/>
+      <line id="Line_2" data-name="Line 2" x2="18" y2="18" fill="none" stroke="#6b5eae" stroke-linecap="round" stroke-width="3"/>
+    </g>
+    <g id="arrow2" transform="translate(417.75 695.416)">
+      <line id="Line_1-2" data-name="Line 1" x1="18" y2="18" transform="translate(18.5)" fill="none" stroke="#6b5eae" stroke-linecap="round" stroke-width="3"/>
+      <line id="Line_2-2" data-name="Line 2" x2="18" y2="18" fill="none" stroke="#6b5eae" stroke-linecap="round" stroke-width="3"/>
+    </g>
+    <g id="arrow3" transform="translate(417.75 715.973)">
+      <line id="Line_1-3" data-name="Line 1" x1="18" y2="18" transform="translate(18.5)" fill="none" stroke="#6b5eae" stroke-linecap="round" stroke-width="3"/>
+      <line id="Line_2-3" data-name="Line 2" x2="18" y2="18" fill="none" stroke="#6b5eae" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
