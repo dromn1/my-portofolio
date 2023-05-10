@@ -30,6 +30,9 @@ import bootstrap from "image/bootstrap.png"
 import tailwind from "image/tailwind.png"
 import animatecss from "image/animatecss.png"
 import mdb from "image/mdb.png"
+import angular from "image/angular.png"
+import ts from "image/ts.png"
+import sass from "image/sass.png"
 import { three } from "maath";
 
 
@@ -137,7 +140,7 @@ import { three } from "maath";
   
         {/* <!-- First content start --> */}
         <div className="tab-pane fade show active animate__animated animate__fadeInDown" id="freamworks-tab-pane" role="tabpanel" aria-labelledby="freamworks-tab" tabIndex="1">
-          <div className="row justify-content-center">
+          <div className="row justify-content-start">
           <div className="col-6 col-lg-3 my-3">
               <div className="card d-flex align-items-center border-purple black-bg">
                 <div className="m-3">
@@ -176,13 +179,14 @@ import { three } from "maath";
                 </div>
               </div>
 
-              <div className="col-6 col-lg-3 my-3">
+
+            <div className="col-6 col-lg-3 my-3">
               <div className="card d-flex align-items-center border-purple black-bg">
               <div className="m-3">
-                <Image className="img-fluid mt-1" src={flutter} height={200} />
+                <Image className="img-fluid mt-1" src={angular} height={200} />
                 </div>
                 <div className="card-body p-1">
-                    <h5 className="card-title color-whity  sizeable-text center-text-sizable">Flutter</h5>
+                    <h5 className="card-title color-whity  sizeable-text center-text-sizable">Angular</h5>
                     </div>
                 <div className="card-body p-1 col-10 d-flex justify-content-center">
                   <div className="col-6 d-flex align-items-center">
@@ -195,6 +199,7 @@ import { three } from "maath";
                 </div>
               </div>
 
+
               <div className="col-6 col-lg-3 my-3">
               <div className="card d-flex align-items-center border-purple black-bg">
               <div className="m-3">
@@ -202,6 +207,26 @@ import { three } from "maath";
                 </div>
                 <div className="card-body p-1">
                     <h5 className="card-title color-whity  sizeable-text center-text-sizable">Laravel</h5>
+                    </div>
+                <div className="card-body p-1 col-10 d-flex justify-content-center">
+                  <div className="col-6 d-flex align-items-center">
+                    <div className="statue-box rounded-2 yelowly-color"></div> 
+                  </div>
+                  <div className="col-6 d-flex justify-content-end">
+                     <a href="#" className="card-link p-1 sizeable-text">Learn</a> 
+                  </div>
+                </div>
+                </div>
+              </div>
+
+
+              <div className="col-6 col-lg-3 my-3">
+              <div className="card d-flex align-items-center border-purple black-bg">
+              <div className="m-3">
+                <Image className="img-fluid mt-1" src={flutter} height={200} />
+                </div>
+                <div className="card-body p-1">
+                    <h5 className="card-title color-whity  sizeable-text center-text-sizable">Flutter</h5>
                     </div>
                 <div className="card-body p-1 col-10 d-flex justify-content-center">
                   <div className="col-6 d-flex align-items-center">
@@ -319,6 +344,25 @@ import { three } from "maath";
               <div className="col-6 col-lg-3 my-3">
               <div className="card d-flex align-items-center border-purple black-bg">
               <div className="m-3">
+                <Image className="img-fluid mt-1" src={sass} height={200} />
+                </div>
+                <div className="card-body p-1">
+                    <h5 className="card-title color-whity  sizeable-text center-text-sizable">Sass</h5>
+                    </div>
+                <div className="card-body p-1 col-10 d-flex justify-content-center">
+                  <div className="col-6 d-flex align-items-center">
+                    <div className="statue-box rounded-2 greenly-color"></div> 
+                  </div>
+                  <div className="col-6 d-flex justify-content-end">
+                     <a href="#" className="card-link p-1 sizeable-text">Learn</a> 
+                  </div>
+                </div>
+                </div>
+              </div>
+
+              <div className="col-6 col-lg-3 my-3">
+              <div className="card d-flex align-items-center border-purple black-bg">
+              <div className="m-3">
                 <Image className="img-fluid mt-1" src={js} height={200} />
                 </div>
                 <div className="card-body p-1">
@@ -327,6 +371,25 @@ import { three } from "maath";
                 <div className="card-body p-1 col-10 d-flex justify-content-center">
                   <div className="col-6 d-flex align-items-center">
                     <div className="statue-box rounded-2 greenly-color"></div> 
+                  </div>
+                  <div className="col-6 d-flex justify-content-end">
+                     <a href="#" className="card-link p-1 sizeable-text">Learn</a> 
+                  </div>
+                </div>
+                </div>
+              </div>
+
+              <div className="col-6 col-lg-3 my-3">
+              <div className="card d-flex align-items-center border-purple black-bg">
+              <div className="m-3">
+                <Image className="img-fluid mt-1" src={ts} height={200} />
+                </div>
+                <div className="card-body p-1">
+                    <h5 className="card-title color-whity  sizeable-text center-text-sizable">TypeScript</h5>
+                    </div>
+                <div className="card-body p-1 col-10 d-flex justify-content-center">
+                  <div className="col-6 d-flex align-items-center">
+                    <div className="statue-box rounded-2 yelowly-color"></div> 
                   </div>
                   <div className="col-6 d-flex justify-content-end">
                      <a href="#" className="card-link p-1 sizeable-text">Learn</a> 

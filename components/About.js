@@ -44,13 +44,13 @@ import {useInView} from 'react-intersection-observer';
         <motion.li initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{type: "spring", stiffness: 260, damping: 20, delay:0.5}} className="nav-item" role="presentation">
           <button className=" position-relative btn p-2 full-width mb-1 black-bg border-purple color-purple fs-6 nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Who am I ?</button>
         </motion.li>
-        <motion.li initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{type: "spring", stiffness: 260, damping: 20, delay:0.7}} className="nav-item" role="presentation">
+        <motion.li initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{type: "spring", stiffness: 260, damping: 20, delay:0.6}} className="nav-item" role="presentation">
           <button className=" position-relative btn p-2 full-width mb-1 mx-3 black-bg border-purple color-purple fs-6 nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Education</button>
         </motion.li>
-        <motion.li initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{type: "spring", stiffness: 260, damping: 20, delay:0.9}} className="nav-item" role="presentation">
+        <motion.li initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{type: "spring", stiffness: 260, damping: 20, delay:0.7}} className="nav-item" role="presentation">
           <button className=" position-relative btn p-2 full-width mb-1 black-bg border-purple color-purple fs-6 nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Experince</button>
         </motion.li>
-        <motion.li initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{type: "spring", stiffness: 260, damping: 20, delay:1.1}} className="nav-item" role="presentation">
+        <motion.li initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{type: "spring", stiffness: 260, damping: 20, delay:0.8}} className="nav-item" role="presentation">
           <button className=" position-relative btn p-2 full-width mb-1 mx-3 black-bg border-purple color-purple fs-6 nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#resume-tab-pane" type="button" role="tab" aria-controls="resume-tab-pane" aria-selected="false">Download</button>
         </motion.li>
       </ul>
