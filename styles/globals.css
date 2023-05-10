@@ -567,7 +567,10 @@ body {
     }
   
     .mysvg {
-      animation: float 6s ease-in-out infinite;
+      animation: float 5s ease-in-out infinite;
+    }
+    .arrowsvg {
+      animation: float 3s ease-in-out infinite;
     }
     .mysvg:hover {
       animation: float 1000s ease-in-out infinite;

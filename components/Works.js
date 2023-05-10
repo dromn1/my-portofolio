@@ -39,7 +39,7 @@ export const Works = ()=> {
       <motion.div animate={animation} ref={ref} className="container text-center no-color vh-100 d-flex align-items-center position-relative">
         
       <div className="col">
-        <h1 className="color-whity fs-2 mb-3 mt-5 text-bg fw-bold"><strong>Here some of my works</strong></h1>
+        <h1 className="color-whity fs-2 mb-3 mt-5 text-bg fw-bold"><strong>Here some of my designs</strong></h1>
         <div id="carouselExampleIndicators" className="carousel slide">
           <div className="row d-flex justify-content-center">
 
