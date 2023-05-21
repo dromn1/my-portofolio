@@ -45,7 +45,7 @@ import { three } from "maath";
     const animation = useAnimation();
   
       useEffect(()=>{
-        console.log("I'm here yo ass", inView)
+        // console.log("I'm here yo ass", inView)
         if(inView){
           animation.start({
             y:0,
