@@ -54,7 +54,7 @@ import Link from 'next/link';
               <strong><span className="color-purple">UI</span>
                 <span className="icon-brush"><span className="path1"></span><span className="path2"></span><span className="path3"></span><span className="path4"></span></span>
                 <span className="color-purple">UX</span> Designer<span className="color-purple"> and </span><span>Web/App </span><span className="color-purple">Developer.</span></strong></motion.h1>
-                <h4 className="animate__animated animate__fadeIn animate__delay-3s content-1 h4 ">who could single-handedly tackle every layer of Web & App design.</h4>
+                <h4 className="animate__animated animate__fadeIn animate__delay-2s content-1 h4 ">who could single-handedly tackle every layer of Web & App design.</h4>
             </div>
           
           </div>
@@ -75,7 +75,7 @@ import Link from 'next/link';
         </div>
 
 
-        <div className="col-12 center-text-sizable mt-2d-flex justify-content-start animate__animated animate__fadeIn animate__delay-5s  position-relative">
+        <div className="col-12 center-text-sizable mt-2d-flex justify-content-start animate__animated animate__fadeIn animate__delay-3s  position-relative">
         <Link href="/routing"><button className="btn-purple position-relative btn p-2 full-width fs-6 color-whity">Let's talk</button></Link>
         </div>
 

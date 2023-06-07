@@ -94,7 +94,7 @@ import Link from 'next/link';
                         <div className="form-group">
                             <textarea name="message" className="black-bg color-whity border-purple rounded-3 form-control py-3" rows={3} placeholder="What is your message📄? *"></textarea>
                         </div>
-                        <button onClick={notify} className="mt-3 full-width btn btn-primary no-border btn-purple ps-5 pe-5 rounded fs-6" type="submit">Send ✔</button>
+                        <button onClick={notify} className="mt-3 full-width btn btn-primary no-border btn-purple ps-5 pe-5 rounded fs-6" type="submit">Send</button>
                     </div>
                     </div>
 
