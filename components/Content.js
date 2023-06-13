@@ -62,13 +62,13 @@ import Link from 'next/link';
         </div>
 
         <div className="col-xxl-5 model-height d-flex justify-content-center animate__animated animate__fadeInUp animate__delay-0s position-relative">
-          <Canvas>
+          {/* <Canvas>
           <OrbitControls enableZoom={false} enableDamping={false} enablePan={false} autoRotate/>
             <Suspense fallback={null}>
               <Model />
               <Environment preset="sunset"  />
             </Suspense>
-          </Canvas>
+          </Canvas> */}
           {/* <Model_3d/> */}
           
           
