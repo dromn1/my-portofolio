@@ -18,7 +18,7 @@ import Link from 'next/link';
   const animation = useAnimation();
 
     useEffect(()=>{
-      console.log("I'm here yo ass", inView)
+      console.log("I'm here", inView)
       if(inView){
         animation.start({
           opacity:1,
