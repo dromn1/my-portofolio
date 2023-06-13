@@ -431,6 +431,10 @@ body {
       display: none !important;
     }
 
+    .custom-mar-bottom {
+      margin-bottom: 30px !important;
+    }
+
   }
 
   @media only screen and (min-width:600px) { 

@@ -61,7 +61,7 @@ import Link from 'next/link';
             
         </div>
 
-        <div className="col-xxl-5 model-height d-flex justify-content-center position-relative mysvg">
+        <div className="col-xxl-5 d-flex justify-content-center position-relative ">
           <Canvas className="mysvg">
           <OrbitControls enableZoom={false} enableDamping={false} enablePan={false} autoRotate/>
             <Suspense fallback={null}>
@@ -75,8 +75,8 @@ import Link from 'next/link';
         </div>
 
 
-        <div className="col-12 center-text-sizable mt-2d-flex justify-content-start animate__animated animate__fadeIn animate__delay-3s  position-relative">
-        <Link href="/routing"><button className="btn-purple position-relative btn p-2 full-width fs-6 color-whity">Let's talk</button></Link>
+        <div className="col-12 center-text-sizable mt-5 justify-content-start animate__animated animate__fadeIn animate__delay-3s  position-relative">
+        <Link href="/routing"><button className="btn-purple position-relative btn p-2 full-width fs-6 color-whity custom-mar-bottom">Let's talk</button></Link>
         </div>
 
       </div>
