@@ -81,7 +81,7 @@ import {useInView} from 'react-intersection-observer';
               <div className="col-12">
                 <p className="color-whity sizeable-text">
                   I'm <span className="sizeable-text color-purple text-decoration-underline">24</span>, 
-                  and I'm a Senior Frontend Developer and UI/UX designer with <span className="sizeable-text color-purple text-decoration-underline">3 years</span> experience and specialization in web\App development design, also I'm Animation Artist and 3D Modeling</p>
+                  and I'm a Mid-Senior Frontend Developer and UI/UX designer with <span className="sizeable-text color-purple text-decoration-underline">3 years</span> experience and specialization in web\App development design, also I'm an Animation Artist and 3D Modeling</p>
               </div>
             </div>
           </div>
