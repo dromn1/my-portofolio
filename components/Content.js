@@ -62,13 +62,13 @@ import Link from 'next/link';
         </div>
 
         <div className="col-xxl-5 d-flex justify-content-center position-relative ">
-          <Canvas className="mysvg">
+          {/* <Canvas className="mysvg">
           <OrbitControls enableZoom={false} enableDamping={false} enablePan={false} autoRotate/>
             <Suspense fallback={null}>
               <Model />
               <Environment preset="sunset"  />
             </Suspense>
-          </Canvas>
+          </Canvas> */}
           {/* <Model_3d/> */}
           
           
