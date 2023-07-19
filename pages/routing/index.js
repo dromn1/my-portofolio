@@ -22,7 +22,7 @@ export const route_pages = ()=> {
       <li></li>
       </ul>
         <Nav />
-        {/* <Cursor /> */}
+        <Cursor />
         <div className='sec-scroll position-relative'>
         <section className='sec2 d-flex justify-content-center align-items-center color-whity'>
         <About/>

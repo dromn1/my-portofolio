@@ -70,6 +70,14 @@ import Link from 'next/link';
             </Suspense>
           </Canvas> */}
           {/* <Model_3d/> */}
+          <Canvas className="mysvg">
+            <OrbitControls enableZoom={false} enableDamping={false} enablePan={false} autoRotate/>
+            <pointLight position={[10, 10, 10]} />
+            <mesh scale={2}>
+              <sphereGeometry/>
+              <meshStandardMaterial color="white" />
+            </mesh>
+          </Canvas>
           
           
         </div>
