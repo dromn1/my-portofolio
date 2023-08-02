@@ -54,7 +54,7 @@ import Link from 'next/link';
               <strong><span className="color-purple">UI</span>
                 <span className="icon-brush"><span className="path1"></span><span className="path2"></span><span className="path3"></span><span className="path4"></span></span>
                 <span className="color-purple">UX</span> Designer<span className="color-purple"> and </span><span>Web/App </span><span className="color-purple">Developer.</span></strong></motion.h1>
-                <h4 className="animate__animated animate__fadeIn animate__delay-2s content-1 h4">who could single-handedly tackle every layer of Web & App design.</h4>
+                <motion.h4 initial={{ y: 50, opacity:0 }} animate={{ y: 0, opacity:1 }} transition={{type: "spring", ease: "easeOut", stiffness: 100, damping: 15,  delay:1.8}}  className="content-1 h4">who could single-handedly tackle every layer of Web & App design.</motion.h4>
             </div>
           
           </div>
@@ -83,9 +83,9 @@ import Link from 'next/link';
         </div>
 
 
-        <div className="col-12 center-text-sizable justify-content-start animate__animated animate__fadeIn animate__delay-3s  position-relative">
+        <motion.div initial={{ y: 50, opacity:0 }} animate={{ y: 0, opacity:1 }} transition={{type: "spring", ease: "easeOut", stiffness: 100, damping: 15,  delay:2}}  className="col-12 center-text-sizable justify-content-start position-relative">
         <Link href="/routing"><button className="btn-purple position-relative btn p-2 full-width fs-6 color-whity mt-5 custom-mar-bottom">Let's talk</button></Link>
-        </div>
+        </motion.div>
 
       </div>
 

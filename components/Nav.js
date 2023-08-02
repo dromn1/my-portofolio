@@ -14,8 +14,8 @@ import Link from "next/link"
   // ===========================================
   <nav className="navbar fixed-top z-1 p-4 no-color">
   <div className="container no-color">
-  <Link href={"/"}><motion.button  initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{type: "spring", stiffness: 260, damping: 20, delay:2.2}} className="navbar-brand no-color no-border" href="#"><Image src={logo} className="navbar-logo"/></motion.button></Link>
-    <Link href={"/"}><motion.button  initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{type: "spring", stiffness: 260, damping: 20, delay:2}}  className="navbar-toggler" type="button" >
+  <Link href={"/"}><motion.button  initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{type: "spring", stiffness: 260, damping: 20, delay:2.3}} className="navbar-brand no-color no-border" href="#"><Image src={logo} className="navbar-logo"/></motion.button></Link>
+    <Link href={"/"}><motion.button  initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{type: "spring", stiffness: 260, damping: 20, delay:2.6}}  className="navbar-toggler" type="button" >
       <Image className="navbar-logo-menu" src={menu_icon} />
     </motion.button></Link>
     <div className="offcanvas offcanvas-bottom navbar-size black-bg border-purple rounded-4 mar-nav" >
