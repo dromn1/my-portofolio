@@ -161,7 +161,7 @@ import {useInView} from 'react-intersection-observer';
               </div>
               <div className="col-12">
                 <p className="color-whity sizeable-text">
-                   <a href="./AhmadNasif.pdf" download={"Ahmad Nasif Resume"} className="sizeable-text color-purple text-decoration-underline">Download</a>
+                   <a href="./Ahmad Nasif.pdf" download={"Ahmad Nasif Resume"} className="sizeable-text color-purple text-decoration-underline">Download</a>
                 </p>
               </div>
               <div className="col-12 mt-1">
